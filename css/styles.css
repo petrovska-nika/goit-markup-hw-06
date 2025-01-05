@@ -75,10 +75,10 @@ ul {
   cursor: pointer;
 }
 .hero .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .hero .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .section-1 .page-title {
   font-weight: 500;
@@ -101,22 +101,17 @@ ul {
 .section-2 {
   background-color: #f4f4fd;
 }
-.section-2 .page-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 .section-2 .item {
   background-color: #ffffff;
 }
 .section-2 .page-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section-2 .text {
