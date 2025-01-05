@@ -36,8 +36,10 @@ ul {
 .top-line .page-nav:focus {
   color: #404bbf;
 }
-.top-line .address .link {
+.top-line .address {
   font-style: normal;
+}
+.top-line .address .link {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -50,20 +52,14 @@ ul {
   color: #404bbf;
 }
 .hero {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
   background-color: #2e2f42;
-  color: #fff;
-  line-height: 1.07;
 }
 .hero .page-title {
   font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -102,7 +98,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-2 .team {
+.section-2 {
   background-color: #f4f4fd;
 }
 .section-2 .page-title {
