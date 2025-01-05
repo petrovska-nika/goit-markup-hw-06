@@ -24,42 +24,42 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
-.page-nav {
+.top-line .page-nav {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.page-nav:hover {
-  color: #404bbf2;
-}
-.page-nav:focus {
+.top-line .page-nav:hover {
   color: #404bbf;
 }
-.address .link {
+.top-line .page-nav:focus {
+  color: #404bbf;
+}
+.top-line .address .link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address .link:hover {
-  color: #404bbf5;
+.top-line .address .link:hover {
+  color: #404bbf;
 }
-.address .link:focus {
-  color: #404bbf5;
+.top-line .address .link:focus {
+  color: #404bbf;
 }
 .hero {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #2e2f42;
   color: #fff;
   line-height: 1.07;
 }
-.page-title {
+.hero .page-title {
   font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 56px;
@@ -91,7 +91,14 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-1 .text {
+.section-1 .core-values .page-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-1 .core-values .text {
   letter-spacing: 0.02em;
   color: #434455;
 }
