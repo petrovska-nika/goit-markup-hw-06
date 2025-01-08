@@ -168,3 +168,35 @@ ul {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+.container { 
+max-width: 1440px;
+padding-left:  
+padding-right:  
+margin-left:  156px;
+margin-right:  156px;
+}
+.container .hero-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.container .core-values-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.container .team-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.container .portfolio-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.top-line {
+width: 1440px;
+}
+.container .hero-section {
+padding-left: 472px;
+padding-right: 472px;
+padding-top: 188px;
+padding-bottom:292px;
+}
