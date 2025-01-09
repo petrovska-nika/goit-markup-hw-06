@@ -52,8 +52,25 @@ ul {
   color: #404bbf;
 }
 .hero-section {
+  padding: 188px 316px 292px;
   text-align: center;
   background-color: #2e2f42;
+}
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section .container .page-title {
+  max-width: 496px;
+}
+.hero-section .container .button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-section .page-title {
   font-family: "Roboto", serif;
@@ -169,20 +186,16 @@ ul {
   letter-spacing: 0.02em;
 }
 .container {
-  max-width: 1440px;
-  padding-left: 0px;
-  padding-right: 0px;
   margin-left: 156px;
   margin-right: 156px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .top-line {
   border-bottom: 1px solid #e7e9fc;
 }
 .top-line .container {
   display: inline-flex;
-  width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -190,11 +203,21 @@ ul {
   display: flex;
   align-items: center;
 }
+.top-line .page-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
 .top-line .container .page-nav .web {
   margin-right: 76px;
 }
 .top-line .container .page-nav .page-nav {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
   gap: 40px;
 }
 .top-line .container .page-nav .address .link {
@@ -203,18 +226,6 @@ ul {
 .top-line .container .page-nav .address {
   display: flex;
   gap: 40px;
-}
-.hero-section {
-  padding: 188px 0;
-}
-.hero-section .container .page-title {
-  max-width: 496px;
-}
-.hero-section .container .button {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
 }
 .core-values-section {
   padding: 120px 0;
