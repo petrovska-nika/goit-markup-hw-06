@@ -232,9 +232,19 @@ link:focus {
 .worker .subtitle {
   text-align: center;
   margin-bottom: 8px;
-  padding: 32px 0;
+}
+.worker .text {
+  text-align: center;
 }
 .portfolio-section {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio-section .title {
+  margin-bottom: 72px;
+}
+.portfolio-secti .container {
   display: flex;
 }
 .portfolio-section .list {
@@ -242,16 +252,30 @@ link:focus {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 .portfolio-section .item {
   text-align: center;
   flex: 1;
   text-align: left;
 }
-
+.application {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.application .subtitle {
+  margin-bottom: 8px;
+}
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
+}
+.footer .web {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer .studio {
   color: #f4f4fd;
