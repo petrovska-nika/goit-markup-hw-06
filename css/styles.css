@@ -151,6 +151,7 @@ link:focus {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
 }
 .btn {
   align-items: center;
@@ -169,7 +170,7 @@ link:focus {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  margin: 48px 163px 0px 164px;
+  margin: 48px auto;
 }
 .btn:hover,
 .btn:focus {
