@@ -136,12 +136,21 @@ link:focus {
 }
 .hero-section {
   text-align: center;
-  background-color: #2e2f42;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 188px 0;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .page-title {
@@ -205,6 +214,18 @@ link:focus {
   max-width: 1158px;
   width: 100%;
 }
+.cv-icons {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 32px;
+}
+
 .core-values-section .item {
   text-align: center;
   flex: 1 1 calc(25% - 24px);
@@ -240,7 +261,7 @@ link:focus {
   border-radius: 0px 0px 4px 4px;
 }
 .worker {
-  padding: 32px 0;
+  padding: 32px 0 8px 0;
 }
 .worker .subtitle {
   text-align: center;
@@ -248,6 +269,24 @@ link:focus {
 }
 .worker .text {
   text-align: center;
+}
+.icons {
+  display: flex;
+  gap: 24px;
+  padding: 0 16px;
+}
+.team-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  margin-bottom: 32px;
+}
+.icons .icon {
+  fill: #fff;
 }
 .portfolio-section {
   display: flex;
@@ -257,9 +296,7 @@ link:focus {
 .portfolio-section .title {
   margin-bottom: 72px;
 }
-.portfolio-secti .container {
-  display: flex;
-}
+
 .portfolio-section .list {
   display: flex;
   grid-template-columns: repeat(3, 1fr);
@@ -287,6 +324,9 @@ link:focus {
   padding: 100px 0;
   weight: 264px;
 }
+.footer .container {
+  display: flex;
+}
 .footer .web {
   display: inline-block;
   margin-bottom: 16px;
@@ -298,4 +338,31 @@ link:focus {
   font-weight: 400;
   color: #f4f4fd;
   width: 264px;
+}
+.footer .container {
+  display: flex;
+}
+.footer .wrapper {
+  display: flex;
+  gap: 24px;
+  padding: 0 16px;
+}
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  margin-bottom: 32px;
+}
+.footer .wrapper .icon {
+  fill: #fff;
+}
+.footer .text-block {
+  margin-right: 120px;
+}
+.text-media {
+  margin-bottom: 16px;
 }
