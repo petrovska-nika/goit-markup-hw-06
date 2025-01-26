@@ -327,11 +327,9 @@ link:focus {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .worker {
-  margin: 32px 0;
+  padding: 32px 0;
 }
-.worker-img {
-  margin-bottom: 32px;
-}
+
 .worker .text {
   margin-bottom: 8px;
 }
@@ -347,7 +345,6 @@ link:focus {
   justify-content: center;
   gap: 24px;
   padding: 0 16px;
-  margin-bottom: 32px;
 }
 .team-icon {
   width: 40px;
@@ -396,7 +393,7 @@ link:focus {
 .portfolio-section .item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
+  transform: transform translateY(0%);
 }
 .portfolio-section .wrapper {
   position: relative;
@@ -466,9 +463,12 @@ link:focus {
   justify-content: center;
   border-radius: 50%;
 }
-
+.link-icon:hover,
+.link-icon:focus {
+  background-color: #404bbf;
+}
 .footer-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 .footer .text-block {
   margin-right: 120px;
