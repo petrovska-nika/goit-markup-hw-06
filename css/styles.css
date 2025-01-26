@@ -114,31 +114,6 @@ a:focus {
 
 .nav .link {
   padding: 24px 0;
-  position: relative;
-  color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.underline::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav .link:hover .underline::after,
-.nav .link:focus .underline::after {
-  opacity: 1;
-}
-
-.current::after {
-  opacity: 1;
 }
 
 .address {
@@ -152,21 +127,43 @@ a:focus {
   gap: 40px;
 }
 
-.address .item-address {
-  text-align: left;
-  padding: 24px 0;
-  position: relative;
-}
-
 .address-link {
-  color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 0;
 }
 
-.address-link:hover .underline::after,
-.address-link:focus .underline::after {
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: currentColor;
+}
+.current {
+  position: relative;
+  text-decoration: none;
+  color: #404bbf;
+}
+
+.underline::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.underline:hover::after,
+.underline:focus::after {
   opacity: 1;
 }
+
+.current::after {
+  opacity: 1;
+}
+
 .hero-section {
   text-align: center;
   display: flex;
@@ -182,6 +179,8 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-section .container {
@@ -191,8 +190,6 @@ a:focus {
   justify-content: center;
   text-align: center;
   padding: 188px 0;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .page-title {
@@ -339,8 +336,8 @@ a:focus {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-icon:hover,
-.link-icon:focus {
+.team-icon .link-icon:hover,
+.team-icon .link-icon:focus {
   background-color: #404bbf;
 }
 .icons .icon {
@@ -449,8 +446,8 @@ a:focus {
   justify-content: center;
   border-radius: 50%;
 }
-.link-icon:hover,
-.link-icon:focus {
+.footer-item .link-icon:hover,
+.footer-item .link-icon:focus {
   background-color: #31d0aa;
 }
 .footer-icon {
