@@ -222,50 +222,6 @@ a:focus {
   background-color: #404bbf;
 }
 
-.modal-backdrop {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-}
-
-.modal-content {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.btn-close {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  margin: 0 auto;
-  padding: 16px 32px;
-  color: #fff;
-  background-color: #4d5ae5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  white-space: nowrap;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-close:hover {
-  background-color: #404bbf;
-}
-
 .core-values-section {
   background-color: #ffffff;
   padding: 120px 0;
@@ -493,6 +449,7 @@ a:focus {
 .form-text {
   font-weight: 500;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 .footer .link-block {
   margin-right: 80px;
@@ -519,7 +476,7 @@ a:focus {
 .input-field::placeholder {
   color: #ffffff;
 }
-.btn-submit {
+.btn-subscribe {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -531,7 +488,52 @@ a:focus {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  line-height: 1.5;
 }
-.submit-icon {
+.subscribe-icon {
   margin-left: 16px;
+}
+
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-close {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close:hover {
+  background-color: #404bbf;
 }
