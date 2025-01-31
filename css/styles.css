@@ -582,6 +582,7 @@ a:focus {
 }
 .container-icon {
   position: relative;
+  width: 100%;
 }
 .name-input {
   height: 40px;
