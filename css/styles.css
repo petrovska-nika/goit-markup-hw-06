@@ -240,6 +240,12 @@ a:focus {
   overflow: hidden;
 }
 
+.visually-hidden:checked + .label-accept .span-accept {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .core-values-section .list {
   display: flex;
   gap: 24px;
@@ -732,6 +738,7 @@ a:focus {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .link-pp {
   color: #4d5ae5;
@@ -748,4 +755,6 @@ a:focus {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  border-radius: 4px;
 }
