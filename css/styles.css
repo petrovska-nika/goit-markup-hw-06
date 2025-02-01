@@ -647,9 +647,9 @@ a:focus {
   fill: #4d5ae5;
 }
 
-.container-email {
+/* .container-email {
   margin-bottom: 8px;
-}
+} */
 .email-label {
   font-size: 12px;
   line-height: 1.17;
