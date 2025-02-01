@@ -464,8 +464,6 @@ a:focus {
   display: flex;
   gap: 24px;
 }
-.footer-label {
-}
 .input-field {
   width: 264px;
   height: 40px;
