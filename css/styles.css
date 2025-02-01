@@ -636,13 +636,13 @@ a:focus {
 .phone-input:focus {
   border-color: #4d5ae5;
 }
-.phone-icon {
+/* .phone-icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .phone-input:focus + .phone-icon {
   fill: #4d5ae5;
 }
@@ -672,13 +672,13 @@ a:focus {
 .email-input:focus {
   border-color: #4d5ae5;
 }
-.email-icon {
+/* .email-icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .email-input:focus + .email-icon {
   fill: #4d5ae5;
 }
