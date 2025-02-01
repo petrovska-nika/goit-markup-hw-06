@@ -571,7 +571,7 @@ a:focus {
   margin-bottom: 16px;
 }
 
-.container-name {
+.container-form {
   margin-bottom: 8px;
 }
 .name-label {
@@ -611,9 +611,9 @@ a:focus {
   fill: #4d5ae5;
 }
 
-.container-phone {
+/* .container-phone {
   margin-bottom: 8px;
-}
+} */
 .phone-label {
   font-size: 12px;
   line-height: 1.17;
