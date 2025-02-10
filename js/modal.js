@@ -16,3 +16,35 @@
     refs.modal.classList.toggle("is-open");
   }
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  menuToggle.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+
+  // Закриття меню при кліку на посилання
+  document.querySelectorAll(".nav-menu a").forEach((link) => {
+    link.addEventListener("click", function () {
+      navMenu.classList.remove("active");
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  menuToggle.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+
+  // Закриваємо меню при натисканні на пункт
+  document.querySelectorAll(".nav-menu a").forEach((link) => {
+    link.addEventListener("click", function () {
+      navMenu.classList.remove("active");
+    });
+  });
+});
