@@ -1009,6 +1009,10 @@ gap: 72px;
   flex-wrap: nowrap;
 }
 
+.hero-section {
+    max-width: 1158px;
+  }
+
   .core-values-section .container {
     max-width: 1158px;
   }
