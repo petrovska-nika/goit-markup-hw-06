@@ -830,7 +830,7 @@ gap: 72px;
 
 /* #region Tablet */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-header .container {
   max-width: 768px;
 }
@@ -981,13 +981,14 @@ gap: 72px;
 }
 .footer-form {
   display: flex;
+  max-width: 496px;
 }
 .input-field {
   width: 264px;
   display: flex; /**/
   align-items: center;/**/
   justify-content: center;/**/
-  margin-bottom: 16px; /**/
+  margin-bottom: 0; /**/
 }
 
 .btn-subscribe {
@@ -1010,7 +1011,7 @@ gap: 72px;
 
 /* #region Desktop */
 
-@media (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .page-header .container {
   max-width: 1158px;
 }
@@ -1030,7 +1031,7 @@ gap: 72px;
 }
 
 .hero-section {
-    max-width: 1158px;
+    max-width: 1440px;
   }
 .hero-section .container {
   padding: 188px 0;
@@ -1100,9 +1101,15 @@ max-width: 1158px;
   flex-wrap: nowrap;
   padding: 0;
 }
+.footer-media {
+  gap: 80px;
+}
 .footer .text-block {
-margin-right: 120px;
-margin-left: 35px;
+/*margin-right: 120px;*/
+/*margin-left: 35px;*/
+}
+.form-text {
+  width: 453px;
 }
 .footer .text {
 margin: 0;
