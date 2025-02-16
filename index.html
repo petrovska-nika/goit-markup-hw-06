@@ -65,91 +65,87 @@
             <use href="./images/icons.svg#icon-icon-burger"></use>
           </svg>
         </button>
-        <div class="menu-backdrop" id="modal" data-menu is-open>
-          <div class="menu-content">
-            <button
-              type="button"
-              class="btn-close"
-              id="close-menu"
-              data-menu-close
-            >
-              <svg class="close-icon" width="8" height="8">
-                <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-            <div class="container-mobmenu">
-              <!--div class="container"-->
-              <!--div clsass="cont-mob-menu"-->
-              <nav class="navmob" id="navMenu">
-                <ul class="list-menu">
-                  <li class="item">
-                    <a href="./index.html" class="menu-text-1">Studio</a>
-                  </li>
-                  <li class="item">
-                    <a class="menu-text-2" href="">Portfolio</a>
-                  </li>
-                  <li class="item">
-                    <a class="menu-text-2" href="">Contacts</a>
-                  </li>
-                </ul>
-              </nav>
-              <!--/!--div-->
-              <!--div class="cot-mob-menu"-->
-              <address class="address-menu">
-                <ul class="list-address-flex">
-                  <li class="item-address">
-                    <a
-                      class="address-link underline"
-                      href="mailto:info@devstudio.com"
-                    >
-                      info@devstudio.com
-                    </a>
-                  </li>
-                  <li class="item-address-menu">
-                    <a class="address-link underline" href="tel:+110001111111">
-                      +11 (000) 111-11-11
-                    </a>
-                  </li>
-                </ul>
-              </address>
-              <!--/!--div-->
-              <!--/!--div-->
-              <ul class="footer-list mobmenu-list">
-                <li class="footer-item">
-                  <a
-                    class="link-icon"
-                    href="https://www.instagram.com"
-                    target="_blank"
-                  >
-                    <svg class="footer-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-insta"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer-item">
-                  <a class="link-icon" href="https://x.com" target="_blank">
-                    <svg class="footer-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-twit"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer-item">
-                  <a class="link-icon" href="https://x.com" target="_blank">
-                    <svg class="footer-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-fb"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer-item">
-                  <a class="link-icon" href="https://x.com" target="_blank">
-                    <svg class="footer-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-in"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+      </div>
+
+      <div class="mobile-menu" id="modal" data-menu is-open>
+        <div class="container mobile-menu-container">
+          <button
+            type="button"
+            class="mobile-menu-close"
+            id="close-menu"
+            data-menu-close
+          >
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-menu-nav" id="navMenu">
+            <ul class="list-menu">
+              <li class="item">
+                <a href="./index.html" class="menu-text-1">Studio</a>
+              </li>
+              <li class="item">
+                <a class="menu-text-2" href="">Portfolio</a>
+              </li>
+              <li class="item">
+                <a class="menu-text-2" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="address-menu">
+            <ul class="list-address-flex">
+              <li class="item-address">
+                <a
+                  class="address-link underline"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="item-address-menu">
+                <a class="address-link underline" href="tel:+110001111111">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+
+          <ul class="mobmenu-list">
+            <li class="footer-item">
+              <a
+                class="link-icon"
+                href="https://www.instagram.com"
+                target="_blank"
+              >
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="link-icon" href="https://x.com" target="_blank">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twit"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="link-icon" href="https://x.com" target="_blank">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="link-icon" href="https://x.com" target="_blank">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -459,7 +455,7 @@
                     media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio/portfolio-mob-1-min.jpg    1x,
-                      ./images/Portfolio/portfolio-mob-1@2x-min.jpg 2x
+                      ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x
                     "
                   />
                   <img
