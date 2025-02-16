@@ -888,6 +888,12 @@ color: #2e2f42;
   padding: 72px 24px 24px 24px;
 }
 
+@media screen and (min-width: 768px) {
+.modal-content {
+width: 408px;
+}
+}
+
 .btn-close {
   position: absolute;
   top: 24px;
@@ -927,6 +933,12 @@ color: #2e2f42;
   color: #2e2f42;
   margin-bottom: 16px;
   max-width: 256px; /**/
+}
+
+@media screen and (min-width: 768px) {
+.modal-text {
+max-width: 360px;
+}
 }
 
 /* .container-form {
@@ -1213,10 +1225,6 @@ color: #2e2f42;
 .btn-subscribe {
   margin: 0; /**/
 }*/
-
-.modal-content {
-  width: 408px;
-}
 
 .modal-text {
   max-width: 360px;
